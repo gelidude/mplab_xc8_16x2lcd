@@ -1,0 +1,149 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1708 ]
+[d frameptr 6 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"52 E:\MPLAB Projects\1602 Character LCD 16F1708\main.c
+[v _main main `(v  1 e 1 0 ]
+"27 E:\MPLAB Projects\1602 Character LCD 16F1708\mcc_generated_files/delay.c
+[v _DELAY_milliseconds DELAY_milliseconds `(v  1 e 1 0 ]
+"33
+[v _DELAY_microseconds DELAY_microseconds `(v  1 e 1 0 ]
+"50 E:\MPLAB Projects\1602 Character LCD 16F1708\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"58
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"70
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 E:\MPLAB Projects\1602 Character LCD 16F1708\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"1073 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f1708.h
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1118
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1157
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S115 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1415
+[s S122 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S129 . 1 `S115 1 . 1 0 `S122 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES129  1 e 1 @149 ]
+"1532
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1591
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1649
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1721
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @154 ]
+"2030
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2075
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2114
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S38 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"2131
+[u S47 . 1 `S38 1 . 1 0 ]
+[v _LATCbits LATCbits `VES47  1 e 1 @270 ]
+"2468
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"2853
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2892
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2931
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"4018
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"4068
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"4107
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"5567
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"5612
+[v _ODCONB ODCONB `VEuc  1 e 1 @653 ]
+"5651
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"6207
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"6252
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @781 ]
+"6291
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"6353
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"6403
+[v _INLVLB INLVLB `VEuc  1 e 1 @909 ]
+"6442
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"52 E:\MPLAB Projects\1602 Character LCD 16F1708\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"54
+[v main@tempstr tempstr `[12]uc  1 a 12 0 ]
+"56
+[v main@i i `i  1 a 2 14 ]
+"55
+[v main@stringsize stringsize `i  1 a 2 12 ]
+"53
+[v main@F4388 F4388 `[12]uc  1 s 12 F4388 ]
+"298
+} 0
+"50 E:\MPLAB Projects\1602 Character LCD 16F1708\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"70
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"55 E:\MPLAB Projects\1602 Character LCD 16F1708\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"113
+} 0
+"58 E:\MPLAB Projects\1602 Character LCD 16F1708\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"68
+} 0
+"27 E:\MPLAB Projects\1602 Character LCD 16F1708\mcc_generated_files/delay.c
+[v _DELAY_milliseconds DELAY_milliseconds `(v  1 e 1 0 ]
+{
+[v DELAY_milliseconds@milliseconds milliseconds `us  1 p 2 0 ]
+"31
+} 0
+"33
+[v _DELAY_microseconds DELAY_microseconds `(v  1 e 1 0 ]
+{
+[v DELAY_microseconds@microseconds microseconds `us  1 p 2 0 ]
+"44
+} 0
